@@ -9,7 +9,8 @@ from fastapi.middleware.cors import CORSMiddleware
 models.base.metadata.create_all(bind=engine)
 
 origins = [
-    'https://www.google.com'
+    'https://www.google.com',
+    
 ]
 
 app = FastAPI()
