@@ -6,7 +6,7 @@ from .routers import user , post, auther, vote
 from fastapi.middleware.cors import CORSMiddleware
 
 
-models.base.metadata.create_all(bind=engine)
+#models.base.metadata.create_all(bind=engine)
 
 origins = [
     'https://www.google.com',
